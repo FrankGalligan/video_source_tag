@@ -2,7 +2,7 @@
 Node module for outputting source tags with correct RFC 6381 parameters.
 
 
-When using the browser to play media files in the <video> tag, you can give the
+When using the browser to play media files in the `<video>` tag, you can give the
 browser more information to help it understand if it will know how to play the
 media file beforehand. This information is conveyed using a [MIME
 type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) and a
