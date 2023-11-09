@@ -2,8 +2,8 @@
 Node module for outputting source tags with correct RFC 6381 parameters.
 
 
-When using the bowser to play media files in the <video> tag, you can give the
-broweser more informaiton to help it understand if it will know how to play the
+When using the browser to play media files in the <video> tag, you can give the
+browser more information to help it understand if it will know how to play the
 media file beforehand. This information is conveyed using a [MIME
 type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) and a
 [codecs
@@ -13,7 +13,7 @@ Each codec defines the format of their codecs parameter. E.g.
 [VP9 in MP4](https://www.webmproject.org/vp9/mp4/#codecs-parameter-string), and 
 [VP8 and VP9 in WebM](https://www.webmproject.org/docs/container/#video-codec).
 The values in some of the codec parameter strings may be mandatory and can be
-difficult to obtain. Using this module makes it easier to obtian the correct
+difficult to obtain. Using this module makes it easier to obtain the correct
 codec parameter strings for many media files.
 
 Prerequisites
@@ -69,7 +69,7 @@ node video_source_tag.mjs input_av1_aac.mp4 input_vp9_opus.mp4 input_vp9_opus.we
 Restrictions
 ============
 
-1. Only .mp4 and .webm files are currenlty supported.
+1. Only .mp4 and .webm files are currently supported.
 2. Only H.264, VP8, VP9, and AV1 video codecs are currently supported.
 3. Only AAC, Opus, and Vorbis audio codecs are currently supported.
 
